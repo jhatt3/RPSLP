@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+
+ul {
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.banner {
+    background-color: #bfccc7;
+    margin: auto;
+    position: relative;
+}
+
+.row {
+    clear: both;
+    margin: 2% 0;
+    padding: 5%;
+    width: 100%;
+}
+
+#card {
+
+    background: no-repeat;
+    background-size: contain;
+    height: 300px;
+    margin: 2.5%;
+    float: left;
+}
+#panel1 {
+    background-image: url("assets/images/enterinfPOH.png");
+    align-items: center;
+
+}
+
+#panel2 {
+
+
+}
+
+#panel3 {
+
+}

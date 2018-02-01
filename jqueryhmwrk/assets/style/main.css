@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    background: rgb(36, 36, 59);
+}
+.banner h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 2.5em ;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#outcome {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40pt;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    color: #EEF;
+    font-weight: bold;
+    -webkit-filter: drop-shadow(5px 5px 10px #e23);
+
+}
+#stat {
+    color: #FFF;
+    text-align: center;
+    width: 100vw;
+    font-size: 20pt;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    -webkit-filter: drop-shadow(5px 5px 10px #e23)
+    margin-bottom: 10vh;
+}
+table {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    table-layout: fixed;
+}
+td {
+    color: #FFF;
+    font-size: 25pt;
+    font-weight: lighter;
+    text-align: center;
+}
+.btn {
+    height: 75px;
+    width: 75px;
+    filter: hue-rotate(50deg);
+    -webkit-filter: drop-shadow(5px 5px 10px #e23)
+}
+.ico {
+    width: 15pt;
+    height: 15pt;
+    filter: hue-rotate(50deg);
+    -webkit-filter: hue-rotate(50deg);
+    display: inline;
+}
+
+#rules {
+    display: block;
+    margin: 50px auto;
+}
+
+th {
+    color: #fff;
+}
+
+#board {
+    -webkit-filter: drop-shadow(5px 5px 10px #e23);
+
+}

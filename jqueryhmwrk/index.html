@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+        <link rel="stylesheet" href="assets/style/main.css">
+        <title>Rock Paper Scissors Lizard Spock</title>
+    </head>
+    <body>
+        <div class="banner"><h1>Rock Paper Scissors Lizzard Spock</h1></div>
+        <div class="rules"><img src="assets/images/rules_RPSLP.jpg" alt="The Rules" id="rules"></div>
+        <div id="outcome">Make Your Pick</div>
+        <div id="stat"></div>
+        <div id="options">
+            <table id="table" border="0">
+                <tr>
+                    <td id="Rock"><img src="assets/images/rock.png" class="btn" /></td>
+                    <td id="Paper"><img src="assets/images/paper.png" class="btn" /></td>
+                    <td id="Scissors"><img src="assets/images/scissors.png" class="btn" /></td>
+                    <td id="Lizard"><img src="assets/images/lizard.png" class="btn" /></td>
+                    <td id="Spock"><img src="assets/images/spock.png" class="btn" /></td>
+                </tr>
+            </table>
+        </div>
+        <table id="board">
+            <tr>
+                <th id="w">WINS</th>
+                <th id="d">DRAWS</th>
+                <th id="l">LOSES</th>
+            </tr>
+            <tr>
+                <td id="wins">0</td>
+                <td id="draws">0</td>
+                <td id="loses">0</td>
+            </tr>
+        </table>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="assets/javascript/main.js"></script>
+    </body>
+</html>
